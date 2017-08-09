@@ -1,0 +1,22 @@
+apiController
+semua model
+routes
+
+nama penjahit yang mengerjakan proyek ongoing/finish
+
+
+kirim testimonial
+kirim laporan penyalah gunaaan
+cetak desain oleh penjahit
+
+
+- ppt
+- homepage
+- ukuran kustom
+
+- button tambah portopolio pindah ke profil (penjahit) .OK
+- lihat tawaran (klik profil penjahit) .OK
+- profil konsumen error .OK
+- cari portopolio (konsumen fitur baru)
+- respon perbaikan pakaian
+- ratting jika konsumen sama yang isi harusnya terupdate, bukan menampilkan baru

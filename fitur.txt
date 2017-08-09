@@ -1,0 +1,56 @@
+FITUR TAMBAH SKILL PENJAHIT SAAT PENGISIAN INFORMASI PRIBADI
+
+
+-tambah portofolio utk penjahit (#1)
+-pencarian proyek utk penjahit (#2)
+-Cari contoh desain dari portofolio penjahit (#3)
+-halaman profil (#4)
+-register (#5)
+-telusuri daftar penjahit utk konsumen (#6)
+-buat proyek dari menu "telusiri penjahit"(Penjahit pilihan sendiri bukan dari penjahit yang melamar) (#7)
+-session "ingat saya" (#8)
+-Beri ratting penjahit setelah proyek selesai (#9)
+-upload refrensi desain/berdasarkan desain portofolio (#10)
+-cetak desain utk penjahit (#11)
+-kirim email konfirmasi (#12)
+-lupa password (#13)
+
+tb_penjahitTer
+
+list skill
+btn ubah profil
+btn ubah password
+
+no.hp
+alamat
+email
+
+tanggal daftar
+jlh proyek dikerjakan
+
+#konfirmasi pembayaran
+tipe pembayaran (Cicilan1/Cicilan2/Kontan)
+no. invoice
+rek.asal(no. rek., a/n)
+rek.tujuan(no. rek., a/n)
+jlh transfer
+foto bukti pembayaran
+
+##dasbor proyek berjalan
+nama proyek
+item pakaian
+nama penjahit beserta idnya
+
+##tb_token
+id_user
+token
+device
+
+view
+#konfirmasi pembayaran(pengguna)
+#ratting&testimonial
+#perbaikan pakaian
+#cari portofolio
+#tambah portofolio
+#daftar permintaan perbaikan
+#laporkan pengguna
