@@ -78,10 +78,10 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY'),
 
-	'cipher' => MCRYPT_RIJNDAEL_128,
-
+    'cipher' => MCRYPT_RIJNDAEL_128,
+    
 	/*
 	|--------------------------------------------------------------------------
 	| Logging Configuration

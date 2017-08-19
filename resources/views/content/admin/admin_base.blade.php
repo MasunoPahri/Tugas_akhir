@@ -21,6 +21,7 @@
                         <li><a href="/adminpanel/users">Pengguna</a></li>
                         <li><a href="/adminpanel/testimonials/view">Testimonial</a></li>
                         <li><a href="/adminpanel/bills">Pembayaran</a></li>
+                        <li><a href="/adminpanel/reports">Laporan Konsumen</a></li>
                     </ul>
                 </div>
             </div>

@@ -139,6 +139,10 @@ Route::group(['prefix' => 'adminpanel'],function(){
 		Route::get('src-user/{string}', [
 			'uses' => 'adminController@search_user'
 		]);
+		
+		Route::get('reports', [
+			'uses' => 'adminController@user_report'
+		]);
 
 		Route::post('sendString', [
 			'uses' => 'adminController@sendString'

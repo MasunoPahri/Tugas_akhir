@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Billing as Bills;
 use App\Pengguna as Pengguna;
+use App\ReportAbuse as Abuse;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
@@ -69,6 +70,18 @@ class adminController extends Controller {
 		return view('content.admin.partials.users',[
 			'sess' => $v,
 			'users' => $users
+		]);
+	}
+
+	public function user_report(){
+		$v = session('userSession');
+
+		$reports = Abuse::with(['tailors'])->get();
+		
+		
+		return view('content.admin.partials.user_report',[
+			'sess' => $v,
+			'reports' => $reports
 		]);
 	}
 }
