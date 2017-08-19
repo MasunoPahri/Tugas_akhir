@@ -1,0 +1,14 @@
+1. Download XAMPP sesuai dengan sistem operasi pada komputer anda. Anda dapat mendownloadnya pada link berikut https://www.apachefriends.org/download.html
+
+2. Setelah XAMPP terinstall dengan sempurna, lalu download Composer pada link berikut https://getcomposer.org/
+
+3. Selanjutnya buka CLI / Command Prompt dan ketikan perintah "composer", jika muncul informasi terkait versi maka composer telah berhasil terinstal
+
+4. Masih pada CLI / Command Prompt, selanjutnya install Laravel sesuai dengan versi yang anda butuhkan dengan mengetikkan perintah berikut 
+composer global require "laravel/installer=~1.1" (Catatan: perintah tersebut untuk menginstal laravel versi 5.0)
+
+5. Selanjutnya cek versi intaller laravel dengan mengetikkan perintah "Laravel -V" untuk memastikan laravel berhasil diinstal.
+
+6. Ekstrak file aplikasi menjarum.zip pada folder penyimpanan anda. Lalu, buka CLI pada folder hasil ekstrak sebelumnya dan ketikkan perintah "php artisan serve". Jika muncul pesan berikut "Laravel development server started on http://localhost:8000/" maka aplikasi berhasil dijalankan.
+
+7. Buka browser anda dan ketikan "localhost:8000" pada addres bar untuk menjalankan aplikasi. Selesai!
